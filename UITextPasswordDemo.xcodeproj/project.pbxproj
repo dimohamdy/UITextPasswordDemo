@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D9029B019600E5C0039D3E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9029AF19600E5C0039D3E5 /* Foundation.framework */; };
+		3D9029B219600E5C0039D3E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9029B119600E5C0039D3E5 /* CoreGraphics.framework */; };
+		3D9029B419600E5C0039D3E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9029B319600E5C0039D3E5 /* UIKit.framework */; };
+		3D9029BA19600E5C0039D3E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D9029B819600E5C0039D3E5 /* InfoPlist.strings */; };
+		3D9029BC19600E5C0039D3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9029BB19600E5C0039D3E5 /* main.m */; };
+		3D9029C019600E5C0039D3E5 /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9029BF19600E5C0039D3E5 /* DHAppDelegate.m */; };
+		3D9029C319600E5C0039D3E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9029C119600E5C0039D3E5 /* Main.storyboard */; };
+		3D9029C619600E5C0039D3E5 /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9029C519600E5C0039D3E5 /* DHViewController.m */; };
+		3D9029C819600E5C0039D3E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9029C719600E5C0039D3E5 /* Images.xcassets */; };
+		3D9029CF19600E5C0039D3E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9029CE19600E5C0039D3E5 /* XCTest.framework */; };
+		3D9029D019600E5C0039D3E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9029AF19600E5C0039D3E5 /* Foundation.framework */; };
+		3D9029D119600E5C0039D3E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9029B319600E5C0039D3E5 /* UIKit.framework */; };
+		3D9029D919600E5C0039D3E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D9029D719600E5C0039D3E5 /* InfoPlist.strings */; };
+		3D9029DB19600E5C0039D3E5 /* UITextPasswordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9029DA19600E5C0039D3E5 /* UITextPasswordDemoTests.m */; };
+		3D9029E619600E7D0039D3E5 /* UITextPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9029E519600E7D0039D3E5 /* UITextPassword.m */; };
+		3D9029E819600E950039D3E5 /* UITextPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9029E719600E950039D3E5 /* UITextPassword.xib */; };
+		3D9029EA196010610039D3E5 /* Reveal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9029E9196010610039D3E5 /* Reveal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D9029D219600E5C0039D3E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D9029A419600E5C0039D3E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9029AB19600E5C0039D3E5;
+			remoteInfo = UITextPasswordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D9029AC19600E5C0039D3E5 /* UITextPasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextPasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9029AF19600E5C0039D3E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D9029B119600E5C0039D3E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D9029B319600E5C0039D3E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D9029B719600E5C0039D3E5 /* UITextPasswordDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextPasswordDemo-Info.plist"; sourceTree = "<group>"; };
+		3D9029B919600E5C0039D3E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D9029BB19600E5C0039D3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D9029BD19600E5C0039D3E5 /* UITextPasswordDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextPasswordDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3D9029BE19600E5C0039D3E5 /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		3D9029BF19600E5C0039D3E5 /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
+		3D9029C219600E5C0039D3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D9029C419600E5C0039D3E5 /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		3D9029C519600E5C0039D3E5 /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		3D9029C719600E5C0039D3E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D9029CD19600E5C0039D3E5 /* UITextPasswordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextPasswordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9029CE19600E5C0039D3E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D9029D619600E5C0039D3E5 /* UITextPasswordDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITextPasswordDemoTests-Info.plist"; sourceTree = "<group>"; };
+		3D9029D819600E5C0039D3E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D9029DA19600E5C0039D3E5 /* UITextPasswordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextPasswordDemoTests.m; sourceTree = "<group>"; };
+		3D9029E419600E7D0039D3E5 /* UITextPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextPassword.h; sourceTree = "<group>"; };
+		3D9029E519600E7D0039D3E5 /* UITextPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextPassword.m; sourceTree = "<group>"; };
+		3D9029E719600E950039D3E5 /* UITextPassword.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UITextPassword.xib; sourceTree = "<group>"; };
+		3D9029E9196010610039D3E5 /* Reveal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reveal.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D9029A919600E5C0039D3E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9029B219600E5C0039D3E5 /* CoreGraphics.framework in Frameworks */,
+				3D9029B419600E5C0039D3E5 /* UIKit.framework in Frameworks */,
+				3D9029B019600E5C0039D3E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9029CA19600E5C0039D3E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9029CF19600E5C0039D3E5 /* XCTest.framework in Frameworks */,
+				3D9029D119600E5C0039D3E5 /* UIKit.framework in Frameworks */,
+				3D9029D019600E5C0039D3E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D9029A319600E5C0039D3E5 = {
+			isa = PBXGroup;
+			children = (
+				3D9029B519600E5C0039D3E5 /* UITextPasswordDemo */,
+				3D9029D419600E5C0039D3E5 /* UITextPasswordDemoTests */,
+				3D9029AE19600E5C0039D3E5 /* Frameworks */,
+				3D9029AD19600E5C0039D3E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D9029AD19600E5C0039D3E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D9029AC19600E5C0039D3E5 /* UITextPasswordDemo.app */,
+				3D9029CD19600E5C0039D3E5 /* UITextPasswordDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D9029AE19600E5C0039D3E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D9029AF19600E5C0039D3E5 /* Foundation.framework */,
+				3D9029B119600E5C0039D3E5 /* CoreGraphics.framework */,
+				3D9029B319600E5C0039D3E5 /* UIKit.framework */,
+				3D9029CE19600E5C0039D3E5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D9029B519600E5C0039D3E5 /* UITextPasswordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D9029BE19600E5C0039D3E5 /* DHAppDelegate.h */,
+				3D9029BF19600E5C0039D3E5 /* DHAppDelegate.m */,
+				3D9029C119600E5C0039D3E5 /* Main.storyboard */,
+				3D9029C419600E5C0039D3E5 /* DHViewController.h */,
+				3D9029C519600E5C0039D3E5 /* DHViewController.m */,
+				3D9029E419600E7D0039D3E5 /* UITextPassword.h */,
+				3D9029E519600E7D0039D3E5 /* UITextPassword.m */,
+				3D9029E719600E950039D3E5 /* UITextPassword.xib */,
+				3D9029C719600E5C0039D3E5 /* Images.xcassets */,
+				3D9029E9196010610039D3E5 /* Reveal.png */,
+				3D9029B619600E5C0039D3E5 /* Supporting Files */,
+			);
+			path = UITextPasswordDemo;
+			sourceTree = "<group>";
+		};
+		3D9029B619600E5C0039D3E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D9029B719600E5C0039D3E5 /* UITextPasswordDemo-Info.plist */,
+				3D9029B819600E5C0039D3E5 /* InfoPlist.strings */,
+				3D9029BB19600E5C0039D3E5 /* main.m */,
+				3D9029BD19600E5C0039D3E5 /* UITextPasswordDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D9029D419600E5C0039D3E5 /* UITextPasswordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D9029DA19600E5C0039D3E5 /* UITextPasswordDemoTests.m */,
+				3D9029D519600E5C0039D3E5 /* Supporting Files */,
+			);
+			path = UITextPasswordDemoTests;
+			sourceTree = "<group>";
+		};
+		3D9029D519600E5C0039D3E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D9029D619600E5C0039D3E5 /* UITextPasswordDemoTests-Info.plist */,
+				3D9029D719600E5C0039D3E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D9029AB19600E5C0039D3E5 /* UITextPasswordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9029DE19600E5C0039D3E5 /* Build configuration list for PBXNativeTarget "UITextPasswordDemo" */;
+			buildPhases = (
+				3D9029A819600E5C0039D3E5 /* Sources */,
+				3D9029A919600E5C0039D3E5 /* Frameworks */,
+				3D9029AA19600E5C0039D3E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextPasswordDemo;
+			productName = UITextPasswordDemo;
+			productReference = 3D9029AC19600E5C0039D3E5 /* UITextPasswordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D9029CC19600E5C0039D3E5 /* UITextPasswordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9029E119600E5C0039D3E5 /* Build configuration list for PBXNativeTarget "UITextPasswordDemoTests" */;
+			buildPhases = (
+				3D9029C919600E5C0039D3E5 /* Sources */,
+				3D9029CA19600E5C0039D3E5 /* Frameworks */,
+				3D9029CB19600E5C0039D3E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D9029D319600E5C0039D3E5 /* PBXTargetDependency */,
+			);
+			name = UITextPasswordDemoTests;
+			productName = UITextPasswordDemoTests;
+			productReference = 3D9029CD19600E5C0039D3E5 /* UITextPasswordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D9029A419600E5C0039D3E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AhmedHamdy;
+				TargetAttributes = {
+					3D9029CC19600E5C0039D3E5 = {
+						TestTargetID = 3D9029AB19600E5C0039D3E5;
+					};
+				};
+			};
+			buildConfigurationList = 3D9029A719600E5C0039D3E5 /* Build configuration list for PBXProject "UITextPasswordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D9029A319600E5C0039D3E5;
+			productRefGroup = 3D9029AD19600E5C0039D3E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D9029AB19600E5C0039D3E5 /* UITextPasswordDemo */,
+				3D9029CC19600E5C0039D3E5 /* UITextPasswordDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D9029AA19600E5C0039D3E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9029C819600E5C0039D3E5 /* Images.xcassets in Resources */,
+				3D9029EA196010610039D3E5 /* Reveal.png in Resources */,
+				3D9029E819600E950039D3E5 /* UITextPassword.xib in Resources */,
+				3D9029BA19600E5C0039D3E5 /* InfoPlist.strings in Resources */,
+				3D9029C319600E5C0039D3E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9029CB19600E5C0039D3E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9029D919600E5C0039D3E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D9029A819600E5C0039D3E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9029C019600E5C0039D3E5 /* DHAppDelegate.m in Sources */,
+				3D9029E619600E7D0039D3E5 /* UITextPassword.m in Sources */,
+				3D9029C619600E5C0039D3E5 /* DHViewController.m in Sources */,
+				3D9029BC19600E5C0039D3E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9029C919600E5C0039D3E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D9029DB19600E5C0039D3E5 /* UITextPasswordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D9029D319600E5C0039D3E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D9029AB19600E5C0039D3E5 /* UITextPasswordDemo */;
+			targetProxy = 3D9029D219600E5C0039D3E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D9029B819600E5C0039D3E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9029B919600E5C0039D3E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D9029C119600E5C0039D3E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9029C219600E5C0039D3E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D9029D719600E5C0039D3E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D9029D819600E5C0039D3E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D9029DC19600E5C0039D3E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D9029DD19600E5C0039D3E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D9029DF19600E5C0039D3E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextPasswordDemo/UITextPasswordDemo-Prefix.pch";
+				INFOPLIST_FILE = "UITextPasswordDemo/UITextPasswordDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D9029E019600E5C0039D3E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextPasswordDemo/UITextPasswordDemo-Prefix.pch";
+				INFOPLIST_FILE = "UITextPasswordDemo/UITextPasswordDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D9029E219600E5C0039D3E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITextPasswordDemo.app/UITextPasswordDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextPasswordDemo/UITextPasswordDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UITextPasswordDemoTests/UITextPasswordDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D9029E319600E5C0039D3E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UITextPasswordDemo.app/UITextPasswordDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITextPasswordDemo/UITextPasswordDemo-Prefix.pch";
+				INFOPLIST_FILE = "UITextPasswordDemoTests/UITextPasswordDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D9029A719600E5C0039D3E5 /* Build configuration list for PBXProject "UITextPasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9029DC19600E5C0039D3E5 /* Debug */,
+				3D9029DD19600E5C0039D3E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9029DE19600E5C0039D3E5 /* Build configuration list for PBXNativeTarget "UITextPasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9029DF19600E5C0039D3E5 /* Debug */,
+				3D9029E019600E5C0039D3E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D9029E119600E5C0039D3E5 /* Build configuration list for PBXNativeTarget "UITextPasswordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9029E219600E5C0039D3E5 /* Debug */,
+				3D9029E319600E5C0039D3E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D9029A419600E5C0039D3E5 /* Project object */;
+}
