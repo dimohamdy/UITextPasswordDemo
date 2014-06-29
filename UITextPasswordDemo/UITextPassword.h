@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextPassword : UIView
+@interface UITextPassword : UIView<UITextFieldDelegate>
 - (IBAction)revealPassword:(id)sender;
 @property (strong, nonatomic) IBOutlet UITextField *password;
 - (IBAction)cencel:(id)sender;
